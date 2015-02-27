@@ -12,10 +12,7 @@ receta.config(['$routeProvider',
     $routeProvider
     .when('/',
       templateUrl: "index.html"
-      controller: 'feedpageresult'
-    ).when('/recipes/new',
-      templateUrl: "form.html"
-      controller: 'RecipeController'
+      controller: 'FeedPagereSultController'
     )
 ])
 
