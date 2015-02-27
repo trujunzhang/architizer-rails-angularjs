@@ -12,7 +12,7 @@ receta.config(['$routeProvider',
     $routeProvider
     .when('/',
       templateUrl: "index.html"
-      controller: 'RecipesController'
+      controller: 'feedpageresult'
     ).when('/recipes/new',
       templateUrl: "form.html"
       controller: 'RecipeController'
@@ -27,12 +27,6 @@ receta.config(['$routeProvider',
 
 controllers = angular.module('controllers', [])
 
-
-controllers.controller("RecipesController", [
-  '$scope',
-  ($scope) ->
-
-])
 
 
 
