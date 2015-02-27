@@ -1,0 +1,1 @@
+# architizer-rails-angularjs
