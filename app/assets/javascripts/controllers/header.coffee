@@ -28,3 +28,23 @@ controllers.directive("headerLogo", ['$compile'
     }
 ])
 
+controllers.directive("headerLeftMenu", ['$compile'
+  ($compile)->
+    restrict: 'E',
+    templateUrl: "header/header-leftmenu.html"
+    scope: {
+      content: '='
+    }
+])
+
+
+controllers.directive("headerRightMenu", ['$compile'
+  ($compile)->
+    restrict: 'E',
+    templateUrl: "header/header-rightmenu.html"
+    scope: {
+      content: '='
+    }
+])
+
+
