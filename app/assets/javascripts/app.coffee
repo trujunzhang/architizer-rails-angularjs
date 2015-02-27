@@ -1,4 +1,6 @@
 receta = angular.module('receta', [
+  'react',
+  'infinite-scroll',
   'templates',
   'ngRoute',
   'ngResource',

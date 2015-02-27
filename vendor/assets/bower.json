@@ -6,6 +6,7 @@
     "angular-route": "latest",
     "angular-resource": "latest",
     "angular-mocks": "latest",
-    "ngReact": "latest"
+    "ngReact": "latest",
+    "ngInfiniteScroll": "latest"
   }
 }
