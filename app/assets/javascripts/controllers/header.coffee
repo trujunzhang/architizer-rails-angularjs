@@ -19,4 +19,12 @@ controllers.directive("headerSection", ['$compile'
     }
 ])
 
+controllers.directive("headerLogo", ['$compile'
+  ($compile)->
+    restrict: 'E',
+    templateUrl: "header/header-logo.html"
+    scope: {
+      content: '='
+    }
+])
 
