@@ -8,3 +8,15 @@ headerCtrl = controllers.controller("HeaderController", ['$scope', '$routeParams
       }
     )
 ])
+
+
+controllers.directive("headerSection", ['$compile'
+  ($compile)->
+    restrict: 'E',
+    templateUrl: "header.html"
+    scope: {
+      content: '='
+    }
+])
+
+

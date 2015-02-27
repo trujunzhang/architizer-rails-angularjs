@@ -5,8 +5,6 @@ receta = angular.module('receta', [
   'controllers',
 ])
 
-
-
 receta.config(['$routeProvider',
   ($routeProvider)->
     $routeProvider
@@ -16,19 +14,10 @@ receta.config(['$routeProvider',
     ).when('/recipes/new',
       templateUrl: "form.html"
       controller: 'RecipeController'
-    ).when('/recipes/:recipeId',
-      templateUrl: "show.html"
-      controller: 'RecipeController'
-    ).when('/recipes/:recipeId/edit',
-      templateUrl: "form.html"
-      controller: 'RecipeController'
     )
 ])
 
 controllers = angular.module('controllers', [])
-
-
-
 
 #angular.element($window).bind 'resize', () ->
 #  console.log "event", event
